@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github" fetch="https://github.com"/>
+  <default remote="github" sync-j="5"/>
+
+  <project name="michael-elomar/gz-cmake" path="package/gz-cmake" revision="ign-cmake2"/>
+</manifest>
