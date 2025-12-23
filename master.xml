@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="github" fetch="https://github.com"/>
+	<remote name="github" fetch="ssh://git@github.com"/>
 	<default remote="github" sync-j="5"/>
 	<project name="michael-elomar/alchemy" path="build/alchemy" revision="master"/>
 	<project name="michael-elomar/dragon_build" path="build/dragon_build" revision="master">
