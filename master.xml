@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="github" fetch="ssh://git@github.com"/>
-	<default remote="github" sync-j="5"/>
-	<project name="michael-elomar/alchemy" path="build/alchemy" revision="master"/>
-	<project name="michael-elomar/dragon_build" path="build/dragon_build" revision="master">
+	<remote fetch="ssh://git@github.com" name="origin"/>
+	<default remote="origin" sync-j="5"/>
+	<project name="michael-elomar/alchemy-private" path="build/alchemy" revision="master"/>
+	<project name="michael-elomar/dragon_build_private" path="build/dragon_build" revision="master">
 		<linkfile dest="build.sh" src="root-build.sh"/>
-	    <linkfile dest="track-branch.sh" src="root-track-branch.sh"/>
+		<linkfile dest="track-branch.sh" src="root-track-branch.sh"/>
 	</project>
-
+	<project name="michael-elomar/libneutron" path="packages/libneutron" revision="master"/>
+	<project name="michael-elomar/libnexus" path="packages/libnexus" revision="master"/>
+	<project name="michael-elomar/eigen" path="packages/eigen" revision="master"/>
 	<project name="michael-elomar/gz-cmake" path="packages/gz-cmake" revision="ign-cmake2"/>
 	<project name="michael-elomar/gz-common" path="packages/gz-common" revision="ign-common3"/>
 	<project name="michael-elomar/gz-fuel-tools" path="packages/gz-fuel-tools" revision="ign-fuel-tools4"/>
+	<project name="michael-elomar/gz-tools" path="packages/gz-tools" revision="ign-tools1"/>
 	<project name="michael-elomar/gz-math" path="packages/gz-math" revision="ign-math6"/>
 	<project name="michael-elomar/gz-msgs" path="packages/gz-msgs" revision="ign-msgs5"/>
 	<project name="michael-elomar/gz-transport" path="packages/gz-transport" revision="ign-transport8"/>
 	<project name="michael-elomar/sdformat" path="packages/sdformat" revision="sdf9"/>
+	<project name="michael-elomar/gazebo-classic" path="packages/gazebo-classic" revision="gazebo11"/>
+	<project name="michael-elomar/gazebo-11-product" path="products/gazebo" revision="master">
+		<linkfile dest="dependencies.sh" src="linux/env/dependencies.sh"/>
+	</project>
 </manifest>
