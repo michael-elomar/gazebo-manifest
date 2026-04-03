@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote fetch="ssh://git@github.com" name="origin"/>
+	<default remote="origin" sync-j="5"/>
+	<project name="michael-elomar/alchemy-private" path="build/alchemy" revision="master"/>
+	<project name="michael-elomar/dragon_build_private" path="build/dragon_build" revision="master">
+		<linkfile dest="build.sh" src="root-build.sh"/>
+		<linkfile dest="track-branch.sh" src="root-track-branch.sh"/>
+	</project>
+	<project name="michael-elomar/libneutron" path="packages/libneutron" revision="master"/>
+	<project name="michael-elomar/libnexus" path="packages/libnexus" revision="master"/>
+	<project name="michael-elomar/eigen" path="packages/eigen" revision="master"/>
+	<!-- gazebo packages -->
+	<project name="michael-elomar/gz-sensors" path="packages/gz-sensors" revision="gz-sensors10"/>
+	<project name="michael-elomar/gz-rendering" path="packages/gz-rendering" revision="gz-rendering10"/>
+	<project name="michael-elomar/gz-plugin" path="packages/gz-plugin" revision="gz-plugin4"/>
+	<project name="michael-elomar/gz-physics" path="packages/gz-physics" revision="gz-physics9"/>
+	<project name="michael-elomar/gz-launch" path="packages/gz-launch" revision="gz-launch9"/>
+	<project name="michael-elomar/gz-sim" path="packages/gz-sim" revision="gz-sim10"/>
+	<project name="michael-elomar/gz-gui" path="packages/gz-gui" revision="gz-gui10"/>
+	<project name="michael-elomar/gz-cmake" path="packages/gz-cmake" revision="gz-cmake5"/>
+	<project name="michael-elomar/gz-common" path="packages/gz-common" revision="gz-common7"/>
+	<project name="michael-elomar/gz-fuel-tools" path="packages/gz-fuel-tools" revision="gz-fuel-tools11"/>
+	<project name="michael-elomar/gz-tools" path="packages/gz-tools" revision="gz-tools2"/>
+	<project name="michael-elomar/gz-utils" path="packages/gz-utils" revision="gz-utils4"/>
+	<project name="michael-elomar/gz-math" path="packages/gz-math" revision="gz-math9"/>
+	<project name="michael-elomar/gz-msgs" path="packages/gz-msgs" revision="gz-msgs12"/>
+	<project name="michael-elomar/gz-transport" path="packages/gz-transport" revision="gz-transport15"/>
+	<project name="michael-elomar/sdformat" path="packages/sdformat" revision="sdf16"/>
+	<project name="michael-elomar/gazebo-11-product" path="products/gazebo" revision="master">
+		<linkfile dest="dependencies.sh" src="linux/env/dependencies.sh"/>
+	</project>
+</manifest>
