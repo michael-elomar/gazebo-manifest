@@ -7,16 +7,29 @@
 		<linkfile dest="build.sh" src="root-build.sh"/>
 		<linkfile dest="track-branch.sh" src="root-track-branch.sh"/>
 	</project>
+	<!-- personal system libraries -->
 	<project name="michael-elomar/libneutron" path="packages/libneutron" revision="master"/>
 	<project name="michael-elomar/libnexus" path="packages/libnexus" revision="master"/>
-	<project name="michael-elomar/eigen" path="packages/eigen" revision="master"/>
+	<!-- gazebo dependencies -->
+	<project name="michael-elomar/eigen" path="packages/eigen" revision="archive"/>
+	<project name="michael-elomar/tinyxml2" path="packages/tinyxml2" revision="master"/>
+	<project name="michael-elomar/assimp" path="packages/assimp" revision="master"/>
+	<project name="michael-elomar/cli11" path="packages/cli11" revision="master"/>
+	<project name="michael-elomar/freeimage" path="packages/freeimage" revision="master"/>
+	<project name="michael-elomar/gdal" path="packages/gdal" revision="master"/>
+	<project name="michael-elomar/jsoncpp" path="packages/jsoncpp" revision="master"/>
+	<project name="michael-elomar/libwebsockets" path="packages/libwebsockets" revision="master"/>
+	<project name="michael-elomar/libyaml" path="packages/libyaml" revision="master"/>
+	<project name="michael-elomar/libzip" path="packages/libzip" revision="master"/>
+	<project name="michael-elomar/spdlog" path="packages/spdlog" revision="master"/>
+	<project name="michael-elomar/swig" path="packages/swig" revision="master"/>
 	<!-- gazebo packages -->
 	<project name="michael-elomar/gz-sensors" path="packages/gz-sensors" revision="gz-sensors10"/>
 	<project name="michael-elomar/gz-rendering" path="packages/gz-rendering" revision="gz-rendering10"/>
 	<project name="michael-elomar/gz-plugin" path="packages/gz-plugin" revision="gz-plugin4"/>
 	<project name="michael-elomar/gz-physics" path="packages/gz-physics" revision="gz-physics9"/>
 	<project name="michael-elomar/gz-launch" path="packages/gz-launch" revision="gz-launch9"/>
-	<project name="michael-elomar/gz-sim" path="packages/gz-sim" revision="gz-sim10"/>
+	<project name="michael-elomar/gz-sim" path="packages/gz-sim" revision="gz-sim10.0.0"/>
 	<project name="michael-elomar/gz-gui" path="packages/gz-gui" revision="gz-gui10"/>
 	<project name="michael-elomar/gz-cmake" path="packages/gz-cmake" revision="gz-cmake5"/>
 	<project name="michael-elomar/gz-common" path="packages/gz-common" revision="gz-common7"/>
