@@ -10,6 +10,8 @@
 	<!-- personal system libraries -->
 	<project name="michael-elomar/libneutron" path="packages/libneutron" revision="master"/>
 	<project name="michael-elomar/libnexus" path="packages/libnexus" revision="master"/>
+	<!-- model simulation packages -->
+	<project name="michael-elomar/bolt-plugins" path="packages/bolt" revision="master"/>
 	<!-- gazebo dependencies -->
 	<project name="michael-elomar/eigen" path="packages/eigen" revision="archive"/>
 	<project name="michael-elomar/tinyxml2" path="packages/tinyxml2" revision="master"/>
@@ -41,6 +43,6 @@
 	<project name="michael-elomar/gz-transport" path="packages/gz-transport" revision="gz-transport15"/>
 	<project name="michael-elomar/sdformat" path="packages/sdformat" revision="sdf16"/>
 	<project name="michael-elomar/gazebo-11-product" path="products/gazebo" revision="master">
-		<linkfile dest="dependencies.sh" src="linux/env/dependencies.sh"/>
+		<linkfile dest="dependencies.sh" src="jetty/env/dependencies.sh"/>
 	</project>
 </manifest>
