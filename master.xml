@@ -20,6 +20,6 @@
 	<project name="michael-elomar/sdformat" path="packages/sdformat" revision="sdf9"/>
 	<project name="michael-elomar/gazebo-classic" path="packages/gazebo-classic" revision="gazebo11"/>
 	<project name="michael-elomar/gazebo-11-product" path="products/gazebo" revision="master">
-		<linkfile dest="dependencies.sh" src="linux/env/dependencies.sh"/>
+		<linkfile dest="dependencies.sh" src="classic/env/dependencies.sh"/>
 	</project>
 </manifest>
