@@ -26,6 +26,8 @@
 	<project name="michael-elomar/spdlog" path="packages/spdlog" revision="master"/>
 	<project name="michael-elomar/swig" path="packages/swig" revision="master"/>
 	<!-- gazebo packages -->
+	<project name="michael-elomar/gz-models" path="packages/models" revision="master"/>
+	<project name="michael-elomar/gz-worlds" path="packages/worlds" revision="master"/>
 	<project name="michael-elomar/gz-sensors" path="packages/gz-sensors" revision="gz-sensors10"/>
 	<project name="michael-elomar/gz-rendering" path="packages/gz-rendering" revision="gz-rendering10"/>
 	<project name="michael-elomar/gz-plugin" path="packages/gz-plugin" revision="gz-plugin4"/>
