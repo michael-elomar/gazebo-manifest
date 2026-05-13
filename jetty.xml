@@ -11,7 +11,7 @@
 	<project name="michael-elomar/libneutron" path="packages/libneutron" revision="master"/>
 	<project name="michael-elomar/libnexus" path="packages/libnexus" revision="master"/>
 	<!-- model simulation packages -->
-	<project name="michael-elomar/bolt-plugins" path="packages/bolt" revision="master"/>
+	<project name="michael-elomar/gz-drone-plugins" path="packages/drone-plugins" revision="master"/>
 	<!-- gazebo dependencies -->
 	<project name="michael-elomar/eigen" path="packages/eigen" revision="archive"/>
 	<project name="michael-elomar/tinyxml2" path="packages/tinyxml2" revision="master"/>
